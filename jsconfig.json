@@ -1,0 +1,14 @@
+// {
+//     "compilerOptions": {
+//       "target": "ES2021",              // Specifies the ECMAScript target version.
+//       "module": "commonjs",            // Specifies the module system (Node.js uses CommonJS).
+//       "checkJs": true,                 // Enables type-checking for JavaScript files.             // Enables strict type-checking options.
+//       "moduleResolution": "node",      // Use Node.js module resolution.
+//       "esModuleInterop": true,         // Allows default imports from CommonJS modules.
+//       "forceConsistentCasingInFileNames": true,  // Enforce consistent casing in import paths.
+//       "skipLibCheck": true             // Skip type-checking of declaration files.
+//     },
+//     "include": ["./**/*.js"],          // Include all JavaScript files in the project.
+//     "exclude": ["node_modules"]        // Exclude the node_modules folder.
+//   }
+  
