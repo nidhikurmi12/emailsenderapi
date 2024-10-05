@@ -19,9 +19,13 @@
         flex-direction: column;
         align-items: center;
       }
+      .body-form{
+       padding: 2rem 4rem!important
+      }
       input {
         padding: 10px;
-        margin: 5px;
+        margin: 10px 5px !important;
+        width: 20rem;
         border: 1px solid #ccc;
         border-radius: 4px;
       }
@@ -51,11 +55,10 @@
     ></script>
   </head>
   <body>
-      <div class="border border-black p-4  rounded"> 
+      <div class="border border-black   rounded body-form"> 
        <h1>Email Sender</h1>
     <form id="emailForm">
         <input
-    
           id="emailInput"
           placeholder="Enter your email"
           required
